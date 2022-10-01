@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(224, 223, 223);
+
+    
+}
+main>h2{
+    text-align: center;
+}
+
+form{
+    width: 300px;
+    border: 1px solid black;
+    padding: 30px;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.359);
+    color: white;
+    border-radius: 15px;
+
+    
+}
+.imput-size{
+    width: 300px;
+}
+
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(204, 197, 197);
+    
+   
+   
+
+}
+
+button{
+    margin-left: 50px;
+    width: 200px;
+    height: 80px;
+    font-size: bolder;
+    background-color: rgb(215, 212, 212);
+    font-weight: bolder;
+}
+
+button:hover{
+    background-color: white;
+    transition: 1s;
+    
+}
