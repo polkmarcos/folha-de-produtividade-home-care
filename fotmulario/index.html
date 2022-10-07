@@ -6,6 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Folha de Produtividade</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+       
+
+        
+
+        #dfPessoas{
+            font: 14px Verdana;
+            margin-left: 35%;
+            margin-top: 150px;
+        }
+
+        #dtPessoas{
+            
+            font:14px Verdana;
+            color: black;
+            
+        }
+
+        table tr td{
+            width: 140px;
+
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -16,7 +39,7 @@
         <section>
 
             <form class="formulario">
-                <div id="funcionario">
+                <div>
                     
                     <label for="funcionario">Funcionario:</label>
                     <input type="text" name="Funcionario" id="funcionario" class="imput-size" >
@@ -85,12 +108,36 @@
                     
                 </div>
                 <br>
-                <button>ENVIAR FOLHA</button>
+                
 
                 
 
 
             </form>
+
+            <div><button onclick="botao(funcionario.value, cpf.value, paciente.value, tomador.value, tel.value, banco.value)">enviar</button></div>
+
+            <div class="totalTable">
+                <div id="dtPessoas">
+                    <table id="tbPessoas">
+                        <thead>
+                            <tr>
+                                <td >
+                                    Codigo
+                                </td>
+                                <td>funcionario</td>
+                                <td>cpf</td>
+                                <td>Paciente</td>
+                                <td>tomador</td>
+                                <td>telefone</td>
+                                <td>banco</td>
+                                <td>agencias</td>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+    
 
             
 
@@ -100,7 +147,14 @@
     </main>
     <footer></footer>
 
-    <script src="script.js"></script>
+    <script>
+
+   
+
+    
+    </script>
+
+    <script src="main.js"></script>
 
 
     
