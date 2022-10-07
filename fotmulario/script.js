@@ -1,15 +1,2 @@
-
-    
-function salvar()
-{
-    var funcionario= document.getElementById(funcionario).innerHTML;
-    if (funcionario.length>=1) {
-       
-    
-      
-
-        }
-        
-}
-
-
+const messege = 'hallo world'
+console.log(messege.length)

@@ -20,6 +20,7 @@ header{
     height: 100px;
     text-align: center;
     padding-top: 50px;
+    font-size: 30px;
 }
 main>h2{
     text-align: center;
@@ -34,6 +35,8 @@ form{
     background-color: rgba(0, 0, 0, 0.359);
     color: white;
     border-radius: 15px;
+    box-shadow: 1px 1px 5px black;
+    text-shadow: 1px 1px 1px black;
 
     
 }
@@ -61,6 +64,7 @@ button{
     font-size: bolder;
     background-color: rgb(215, 212, 212);
     font-weight: bolder;
+    border-radius: 15px;
 }
 
 button:hover{
